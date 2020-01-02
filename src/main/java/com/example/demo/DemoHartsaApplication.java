@@ -25,9 +25,10 @@ public class DemoHartsaApplication {
             log.info("save a couple of strings");
 
             // Save 3 strings
-            hRepo.save(new Hartsa("Hello!..."));
-            hRepo.save(new Hartsa("I am..."));
-            hRepo.save(new Hartsa("Check out ...."));
+            hRepo.save(new Hartsa("Hello! My name is Harri Nupponen"));
+            hRepo.save(new Hartsa("I am Software Development student with strong experience in" +
+                    " Customer Service and Teamwork. Adding a twist of Team leader"));
+            hRepo.save(new Hartsa("Check out what I've done so far:"));
         };
     }
 }
