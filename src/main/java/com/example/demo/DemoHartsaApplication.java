@@ -24,11 +24,14 @@ public class DemoHartsaApplication {
         return (args) -> {
             log.info("save a couple of strings");
 
-            // Save 3 strings
+            // Save a few strings
             hRepo.save(new Hartsa("Hello! My name is Harri Nupponen"));
-            hRepo.save(new Hartsa("I am Software Development student with strong experience in" +
-                    " Customer Service and Teamwork. Adding a twist of Team leader"));
-            hRepo.save(new Hartsa("Check out what I've done so far:"));
+            hRepo.save(new Hartsa("I am Software Development student"));
+            hRepo.save(new Hartsa("with strong experience in"));
+            hRepo.save(new Hartsa("Customer Service and Teamwork."));
+            hRepo.save(new Hartsa("Adding a twist of Team leader."));
+            hRepo.save(new Hartsa("Click on the Menu-button up-left and"));
+            hRepo.save(new Hartsa("Check out who I am and what I've done."));
         };
     }
 }
