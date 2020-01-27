@@ -26,7 +26,7 @@ public class DemoHartsaApplication {
 
             // Save a few strings
             hRepo.save(new Hartsa("e-mail: harrinupponen@gmail.com"));
-            hRepo.save(new Hartsa("tel: +358 (0) 40 739 8459");
+            hRepo.save(new Hartsa("tel: +358 (0) 40 739 8459"));
         };
     }
 }
