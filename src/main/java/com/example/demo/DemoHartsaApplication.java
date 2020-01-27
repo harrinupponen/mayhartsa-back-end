@@ -25,13 +25,8 @@ public class DemoHartsaApplication {
             log.info("save a couple of strings");
 
             // Save a few strings
-            hRepo.save(new Hartsa("Hello! My name is Harri Nupponen"));
-            hRepo.save(new Hartsa("I am Software Development student"));
-            hRepo.save(new Hartsa("with strong experience in"));
-            hRepo.save(new Hartsa("Customer Service and Teamwork."));
-            hRepo.save(new Hartsa("Adding a twist of Team leader."));
-            hRepo.save(new Hartsa("Click on the Menu-button up-left and"));
-            hRepo.save(new Hartsa("Check out who I am and what I've done."));
+            hRepo.save(new Hartsa("e-mail: harrinupponen@gmail.com"));
+            hRepo.save(new Hartsa("tel: +358 (0) 40 739 8459");
         };
     }
 }
